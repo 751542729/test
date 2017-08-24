@@ -1,0 +1,33 @@
+{
+  "name": "vonic-template",
+  "version": "2.0.0",
+  "description": "Webpack Template for Vonic 2.",
+  "author": "wangdahoo <157195705@qq.com>",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --port=8081",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vonic": "*",
+    "axios": "^*",
+    "vue": "^*",
+    "vue-router": "^*"
+  },
+  "devDependencies": {
+    "babel-core": "^*",
+    "babel-loader": "^*",
+    "babel-preset-es2015": "^*",
+    "cross-env": "^*",
+    "css-loader": "^*",
+    "file-loader": "^*",
+    "lodash.clonedeep": "^*",
+    "node-sass": "^*",
+    "sass-loader": "^*",
+    "style-loader": "^*",
+    "url-loader": "^*",
+    "vue-loader": "^*",
+    "vue-template-compiler": "^*",
+    "webpack": "^*",
+    "webpack-dev-server": "^*"
+  }
+}
